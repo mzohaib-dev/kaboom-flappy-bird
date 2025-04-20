@@ -1,12 +1,10 @@
 # Flappy Bird Built with Kaboom.js
 
-https://github.com/user-attachments/assets/2c124ec4-fe0f-4ccc-9825-bb367b5d28bb
-
 A faithful Flappy Bird-style game built using [Kaboom.js](https://kaboomjs.com/), featuring day/night cycles, animated sprites, and responsive controls.
 
 ## Demo
 
-Play Live Game [here](https://flappy-bird-rush.netlify.app)
+Play Live Game [here](https://smartguess.netlify.app/)
 
 ## Features
 
@@ -32,12 +30,33 @@ Play Live Game [here](https://flappy-bird-rush.netlify.app)
 - Avoid collisions with pipes and ground
 - Try to beat your high score!
 
+## Project Structure
+
+```plaintext
+kaboom-flappy-bird/
+├── public/
+│   ├── sprites/
+│   │   ├── bird.png
+│   │   ├── bg.png
+│   │   └── pipe.png
+│   └── sounds/
+│       ├── jump.mp3
+│       ├── bruh.mp3
+│       └── pass.mp3
+├── src/
+│   └── main.js
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/mzohaib-dev/kaboom-flappy-bird.git
+  git clone https://github.com/mzohaib-dev/flappy-bird.git
 ```
 
 Go to the project directory
@@ -57,3 +76,13 @@ Start the server
 ```bash
   npm run dev
 ```
+
+## Contributing
+
+Contributions are always welcome!
+
+- Fork the repository.
+- Create a feature branch (git checkout -b feature/new-feature).
+- Commit changes (git commit -m "Add new feature").
+- Push to the branch (git push origin feature/new-feature).
+- Open a Pull Request.
