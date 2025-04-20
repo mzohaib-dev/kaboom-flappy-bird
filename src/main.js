@@ -213,7 +213,19 @@ scene("gameover", (score) => {
 
   play("bruh");
 
-  add([sprite("gameover", { width: width(), height: height() }), pos(0, 0)]);
+  const bgSprite = isDay ? "background-day" : "background-night";
+  add([
+    sprite(bgSprite, { width: width(), height: height() }),
+    pos(0, 0),
+    "background",
+  ]);
+
+  add([
+    sprite("gameover"),
+    pos(width() / 2, height() / 3),
+    anchor("center"),
+    scale(1),
+  ]);
 
   add([
     text(`Score: ${score}\nHigh Score: ${highScore}`, { size: 45 }),
