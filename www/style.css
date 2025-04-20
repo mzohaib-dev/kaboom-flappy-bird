@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #87ceeb;
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+canvas#game {
+  display: block;
+  max-width: 100%;
+  max-height: 80vh;
+  border: 2px solid #0288d1;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(90deg, #ff6f61, #ffb347);
+  padding: 8px 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  z-index: 10;
+}
+
+.footer:hover {
+  transform: translateX(-50%) scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+a:link,
+a:visited {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+a:hover {
+  color: #e0f7ff;
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+
+a:active {
+  color: #ffd700;
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .footer {
+    font-size: 14px;
+    padding: 6px 12px;
+    bottom: 10px;
+  }
+
+  canvas#game {
+    max-height: 70vh;
+  }
+}
