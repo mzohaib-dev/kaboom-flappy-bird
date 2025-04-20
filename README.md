@@ -4,7 +4,7 @@ A faithful Flappy Bird-style game built using [Kaboom.js](https://kaboomjs.com/)
 
 ## Demo
 
-Play Live Game [here](https://smartguess.netlify.app/)
+Play Live Game [here](https://flappy-bird-rush.netlify.app)
 
 ## Features
 
@@ -35,7 +35,7 @@ Play Live Game [here](https://smartguess.netlify.app/)
 Clone the project
 
 ```bash
-  git clone https://github.com/mzohaib-dev/flappy-bird.git
+  git clone https://github.com/mzohaib-dev/kaboom-flappy-bird.git
 ```
 
 Go to the project directory
