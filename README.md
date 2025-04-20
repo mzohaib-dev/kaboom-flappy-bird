@@ -6,7 +6,7 @@ A faithful Flappy Bird-style game built using [Kaboom.js](https://kaboomjs.com/)
 
 ## Demo
 
-Play Live Game [here](https://smartguess.netlify.app/)
+Play Live Game [here](flappy-bird-rush.netlify.app)
 
 ## Features
 
