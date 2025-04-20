@@ -1,5 +1,7 @@
 # Flappy Bird Built with Kaboom.js
 
+https://github.com/user-attachments/assets/2c124ec4-fe0f-4ccc-9825-bb367b5d28bb
+
 A faithful Flappy Bird-style game built using [Kaboom.js](https://kaboomjs.com/), featuring day/night cycles, animated sprites, and responsive controls.
 
 ## Demo
